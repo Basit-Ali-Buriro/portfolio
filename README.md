@@ -1,12 +1,49 @@
-# React + Vite
+💼 Basit Ali – Developer Portfolio
+Welcome to my personal developer portfolio website! Built with React, Tailwind CSS, and animated with Framer Motion, this site showcases who I am, what I do, and what I've built.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Tech Stack
+Frontend: React, Tailwind CSS, JavaScript
 
-Currently, two official plugins are available:
+Animations: Framer Motion, Scroll-based animations
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Icons: React Icons
 
-## Expanding the ESLint configuration
+Routing: React Scroll
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Deployment: Netlify / Vercel
+
+📄 Features
+✨ Clean, modern UI design
+
+🖱️ Scroll-triggered animations
+
+⌨️ Typing text animation
+
+📱 Fully responsive across all devices
+
+📥 CV Download functionality
+
+🔗 Social media links (GitHub, LinkedIn, Instagram)
+
+📁 Folder Structure (Simplified)
+bash
+Copy
+Edit
+src/
+│
+├── assets/              # Images like profile picture
+├── components/          # Reusable components (TypingText, FadeInOnScroll)
+├── pages/               # Page components like Home, About, Projects
+├── App.jsx              # Main App entry
+└── main.jsx             # Entry point for React DOM
+📷 Preview
+
+📌 Live Site
+🌐 Visit Portfolio
+
+📫 Contact
+💼 LinkedIn: linkedin.com/in/Basit-Alee
+
+🐙 GitHub: github.com/your-github
+
+📧 Email: youremail@example.com
