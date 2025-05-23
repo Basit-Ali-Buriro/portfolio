@@ -2,6 +2,7 @@ import React from 'react';
 import profile from '../assets/profpic.png';
 import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import FadeInOnScroll from '../components/FadeInOnScroll';
+import CV from '../../public/Basit Ali Resume.pdf'
 import { Element } from 'react-scroll';
 import TypingText from "../components/TypingText";
 
@@ -42,8 +43,8 @@ function Home() {
           <FadeInOnScroll direction="up" delay={1.6}>
             <div className='flex items-center gap-5 sm:gap-4 md:gap-3 w-full md:w-full px-3 py-5'>
               <a
-                href="public/Basit Ali Resume.pdf"
-                download="public/Basit Ali Resume.pdf"
+                href={CV}
+                download={CV}
                 aria-label="Download CV">
                 <button
                   className='font-semibold rounded-xl px-5 py-3 border-2 border-[#A855F7] cursor-pointer'
