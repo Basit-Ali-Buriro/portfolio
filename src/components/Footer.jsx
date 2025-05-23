@@ -7,7 +7,15 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between">
         {/* Left Section: J.Doe and Social Icons */}
         <div className="flex flex-col md:flex-row items-center md:space-x-8 mb-6 md:mb-0">
-          <span className="text-2xl font-bold text-purple-400 mb-4 md:mb-0">Basit</span>
+          <Link
+          to="home"
+          smooth={true}
+          duration={500}
+          offset={-70}
+          className="font-semibold text-xl md:text-2xl lg:text-3xl text-gray-300 cursor-pointer"
+        >
+          Basit Ali
+        </Link>
           <div className="flex space-x-6">
             {/* GitHub Icon */}
             <a href="https://github.com/Basit-Ali-Buriro/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
